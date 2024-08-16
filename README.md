@@ -2,7 +2,9 @@
 Ruleset for .K3P files, a zip-based file format for the Keksis 3 Patcher.
 
 ## What are .K3P files?
-The .K3P format is a .ZIP-based "pseudoformat". The goal of dotK3P is to offer a simple way of marking files for deletion in .ZIP files in a compatible, human-readable manner, without using f.e. long lists.
+The .K3P format is a .ZIP-based "pseudoformat".
+
+The goal of dotK3P is to offer a simple way of marking files for deletion in .ZIP files in a compatible, human-readable manner, without using f.e. long lists.
 The very simple usage of a ".2bdeleted" file (can be empty) in a .K3P file marks what file(s) should be deleted by the unpacking program.
 
 ## How does a .K3P file look like?
